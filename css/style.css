@@ -551,6 +551,7 @@ a[href^=tel] {
 }
 
 
+
 /* Top Bar
 ================================================== */
 
@@ -837,15 +838,16 @@ ul.navbar-nav>li>a {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -.2px;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
-    line-height: 40px;
+    line-height: 20px;
     padding: 30px 0;
     -webkit-transition: 350ms;
     -moz-transition: 350ms;
     -o-transition: 350ms;
     transition: 350ms;
 }
+
 
 ul.navbar-nav>li>a:hover,
 ul.navbar-nav>li>a:focus {
@@ -936,9 +938,12 @@ ul.navbar-nav>li>a i {
 }
 
 .dropdown-menu li a {
-    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'printable4ubold', sans-serif;
+    src: url('printable4u_bold_ver_1.00-webfont.woff2') format('woff2'),
+         url('printable4u_bold_ver_1.00-webfont.woff') format('woff');
     display: block;
-    font-size: 12px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: normal;
@@ -3530,17 +3535,18 @@ label {
 .header-one .site-navigation{
   
     background: #971a1a;
-    background: -webkit-linear-gradient(to right, #df4d4d, #cc4141);
-    background: -webkit-linear-gradient(left, #df4d4d, #cc4141);
-    background: linear-gradient(to right, #df4d4d, #cc4141);
+    background: -webkit-linear-gradient(to right, #ee5050, #9c2222);
+    background: -webkit-linear-gradient(left, #ee5050, #9c2222);
+    background: linear-gradient(to right, #ee5050, #9c2222);
 }
 
 .header-one .navbar-collapse{
-    padding-left: 0;
+    padding-left: 170px;
+   
 }
 
 .header-one ul.navbar-nav>li>a{
-    padding: 15px 0;
+    padding: 20px 0;
     color: #fff;
 }
 
@@ -3558,7 +3564,10 @@ label {
 }
 
 .centers{
+
     transform:translateX(40%);
+
+
 
 
 }
@@ -3573,3 +3582,28 @@ label {
 .header-two .logo{
     padding: 28px 0;
 }
+.fc {
+    font-family: 'fc_ekaluckbold';
+    src: url('fc_ekaluck_bold_ver_1.01-webfont.woff2') format('woff2'),
+         url('fc_ekaluck_bold_ver_1.01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+
+.pr {
+    font-family: 'printable4ubold';
+    src: url('printable4u_bold_ver_1.00-webfont.woff2') format('woff2'),
+         url('printable4u_bold_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#sidebar {
+    position: fixed;
+    top:10;
+    right:0;
+    
+    
+   }
