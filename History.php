@@ -238,10 +238,10 @@
 </div><!--/span-->
 <div class="footer-social text-center">
 								<ul>
-                                <span class="social-icon"><a href="https://facebook.com/themefisher"><i class="fa fa-facebook"></i></a></span>
-                                <span class="social-icon"><a href="https://twitter.com/themefisher"><i class="fa fa-twitter"></i></a></span>
-                                <span class="social-icon"><a href="https://instagram.com/themefisher"><i class="fa fa-instagram"></i></a></span>
-                                <span class="social-icon"><a href="https://github.com/themefisher"><i class="fa fa-github"></i></a></span>
+									<li><a href="https://facebook.com/themefisher"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="https://twitter.com/themefisher"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://instagram.com/themefisher"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://github.com/themefisher"><i class="fa fa-github"></i></a></li>
 								</ul>
 							</div>
                         </div>

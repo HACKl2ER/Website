@@ -102,7 +102,7 @@
 													class="fa fa-angle-down"></i></a>
 											<ul class="dropdown-menu" role="menu">
 												<li><a href="#" onclick="showHistoryPage()">ประวัติ</a></li>
-												<li><a href="#">หลักสูตร</a></li>
+												<li><a href="#" onclick="showCoursePage()">หลักสูตร</a></li>
 											</ul>
 										</li>
 										<li class="dropdown">

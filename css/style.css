@@ -40,7 +40,7 @@
 
 body {
     background: #fff;
-    color: #555;
+    color: rgb(29, 29, 29);
 }
 
 body,
@@ -2588,7 +2588,7 @@ img.testimonial-thumb {
 
 .footer-social ul li a i {
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     color: #999;
     background: none;
     -webkit-transition: 400ms;
