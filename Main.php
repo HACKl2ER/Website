@@ -1,5 +1,4 @@
 <div class="container">
-    <div class="row">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -12,15 +11,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="รูป\jop1.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="รูป\jop1.jpg" width="1140" height="400" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="รูป\jop1.jpg" alt="Chicago" style="width:100%;">
+        <img src="รูป\jop1.jpg" width="1140" height="400" alt="Chicago" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="รูป\jop1.jpg" alt="New york" style="width:100%;">
+        <img src="รูป\jop1.jpg" width="1140" height="400" alt="New york" style="width:100%;">
       </div>
     </div>
 
@@ -35,3 +34,9 @@
     </a>
   </div>
 </div>
+<section id="ts-service-area" class="ts-service-area">
+			<div class="container">
+						
+				<div id="body_content_info">
+				</div>
+				</div>
