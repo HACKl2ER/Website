@@ -4,7 +4,7 @@
         <a href="#" class="list-group-item">เว็บมหาลัย</a>
         <a href="#" class="list-group-item">ตารางเรียนนักศึกษา
 ตารางสอนอาจารย์</a>
-        <a href="#" class="list-group-item">ข่าวสาร</a>
+        <a href="#" class="list-group-item " >ข่าวสาร</a>
         <a href="#" class="list-group-item">วิจัย</a>
         <a href="#" class="list-group-item">ภาพกิจกรรม</a>
         <a href="#" class="list-group-item">เว็บไซต์ห้องสมุด</a>

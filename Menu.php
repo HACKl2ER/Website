@@ -149,7 +149,11 @@
               										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
 													</ul>
 												</li>
-												<li><a href="404.html">กิจกรรมไหว้ครูสาขาวิทยาการคอมพิวเตอร์</a></li>
+												<li><a href="https://www.facebook.com/permalink.php?story_fbid=2221609698061802&amp;id=1432524576970322&amp;_rdc=1&amp;_rdr">กิจกรรมไหว้ครูสาขาวิทยาการคอมพิวเตอร์</a></li>
+												
+												<li><a href="https://registable.sskru.ac.th/timetbl/stusearch.php">ตารางการเรียน</a></li>
+												<li><a href="https://registable.sskru.ac.th/timetbl/teachsearch.php">ตารางการสอน</a></li>
+												<li><a href="https://registable.sskru.ac.th/timetbl/roomsearch.php">ตารางการใช้ห้อง</a></li>
 											</ul>
 										</li>
 										<li class="dropdown">
@@ -170,7 +174,7 @@
 						<!--/ Col end -->
 					</div>
 					<!--/ Row end -->
-					<div class="clear-fix space-30 hidden-xs hidden-sm"></div>
+				
 
 				
 					<div class="nav-search">
@@ -189,6 +193,8 @@
 			<div class="container">
 						
 				<div id="body_content_info">
+				</div>
+				</div>
 
 	
 	<script>
