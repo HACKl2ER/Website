@@ -401,8 +401,8 @@ img.pull-right {
 hr {
     background-color: #e7e7e7;
     border: 0;
-    height: 1px;
-    margin: 40px 0;
+    height: 2px;
+    margin: 10px 0;
 }
 
 blockquote {

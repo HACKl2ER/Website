@@ -6,21 +6,29 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner" style="width: 100%;overflow: hidden;position: relative;height: 400px;">
+    
       <div class="item active">
-        <img src="รูป\jop1.jpg" width="1140" height="400" alt="Los Angeles" style="width:100%;">
+        <img src="https://sv1.picz.in.th/images/2019/08/21/ZgCW22.jpg" alt="Page0" style="width:100%;">
       </div>
 
+          
       <div class="item">
-        <img src="รูป\jop1.jpg" width="1140" height="400" alt="Chicago" style="width:100%;">
+        <img src="https://uppic.cc/d/5x4Z" alt="Page2" style="width:100%;">
       </div>
-    
       <div class="item">
-        <img src="รูป\jop1.jpg" width="1140" height="400" alt="New york" style="width:100%;">
+        <img src="https://uppic.cc/d/5x1d" alt="Page3" style="width:100%;">
       </div>
+      <div class="item">
+        <img src="https://uppic.cc/d/5xVk" alt="Page4" style="width:100%;">
+      </div>
+      
+      
     </div>
 
     <!-- Left and right controls -->
@@ -34,9 +42,19 @@
     </a>
   </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9 col-lg-9">
+        
+                        <h3>ข่าวสารสาขาวิทยาการคอมพิวเตอร์</h3><hr>
+
+                </div>
+</div>
+</div>
 <section id="ts-service-area" class="ts-service-area">
 			<div class="container">
 						
 				<div id="body_content_info">
 				</div>
-				</div>
+                </div>
+
