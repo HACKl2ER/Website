@@ -14,9 +14,9 @@
             <div class="row">
                 <div class="col-md-9 col-lg-9">
           <div id="c5" class="csc-frame csc-frame-default">
-<div id="c5" class="frame frame-default frame-type-header frame-layout-0"><header><h3 class="">
+<div id="c5" class="frame frame-default frame-type-header frame-layout-0"><header><h1 class="">
 				ปฏิทิน <?php echo $row["Title"]; echo $row["Name_Surname"]; ?>
-			</h3></header></div>
+			</h1></header></div>
 
 <iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23a2a2a2&amp;ctz=Asia%2FBangkok&amp;src=c3NrcnVjczYwQGdtYWlsLmNvbQ&amp;src=dGgudGgjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=1&amp;showPrint=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 

@@ -123,7 +123,7 @@
 												<li class="dropdown-submenu">
 													<a href="#.">ตารางสอนอาจารย์</a>
 													<ul class="dropdown-menu">
-													<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-58;?>)" target="_blank" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
+													<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-58;?>)" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
               										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
               										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
               										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
