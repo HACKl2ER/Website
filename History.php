@@ -9,34 +9,7 @@
                     </div>
 
                 </div>
-                <div id="c1679" class="csc-frame csc-frame-default">
-                    <div id="c1679" class="frame frame-default frame-type-shortcut frame-layout-0">
-                        <div id="c1636" class="csc-frame csc-frame-default">
-                            <div id="c1636" class="frame frame-default frame-type-html frame-layout-0">
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="c8982" class="csc-frame csc-frame-default">
-                    <div id="c8982" class="frame frame-default frame-type-image frame-layout-0">
-                        <div class="ce-image ce-center ce-above">
-                            <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
-                                <div class="ce-outer">
-                                    <div class="ce-inner">
-                                        <div class="ce-row">
-                                            <div class="ce-column">
-                                                <figure class="image"><img class="image-embed-item" src="C:\Users\sskza\Music\WEBสาขา\รูป\009.jpg" width="1623" height="1080" alt=""></figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                
                 <div id="c6" class="csc-frame csc-frame-default">
                     <div id="c6" class="frame frame-default frame-type-text frame-layout-0">
                         <hr>
@@ -49,9 +22,9 @@
                 <div id="c7" class="csc-frame csc-frame-default">
                     <div id="c7" class="frame frame-default frame-type-header frame-layout-0">
                         <header>
-                            <h1 class="">
+                            <h2 class="">
 				ประวัติการก่อตั้งมหาวิทยาลัยราชภัฏศรีสะเกษ
-			</h1></header>
+			</h2></header>
                     </div>
 
                 </div>
@@ -238,10 +211,10 @@
 </div><!--/span-->
 <div class="footer-social text-center">
 								<ul>
-									<li><a href="https://facebook.com/themefisher"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="https://twitter.com/themefisher"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="https://instagram.com/themefisher"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="https://github.com/themefisher"><i class="fa fa-github"></i></a></li>
+									<li><a href="https://www.facebook.com/sskruthailand/"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="https://twitter.com/sskruthailand"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.instagram.com/sskru.thailand/"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://github.com/HACKl2ER/Website.git"><i class="fa fa-github"></i></a></li>
 								</ul>
 							</div>
                         </div>

@@ -1,13 +1,12 @@
-<section id="maincontent" class="maincontent" role="maincontent">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-lg-9">
-
                   
           <div id="c44" class="csc-frame csc-frame-default">
-<div id="c44" class="frame frame-default frame-type-header frame-layout-0"><header><h1 class="">
-				ปณิธานและวิสัยทัศน์
-			</h1></header></div>
+<div id="c44" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="">
+				ปณิธานและวิสัยทัศน์<hr>
+			</h2></header></div>
 
 </div><div id="c1636" class="csc-frame csc-frame-default">
 <div id="c1636" class="frame frame-default frame-type-html frame-layout-0"><div class="border-headline"></div></div>
@@ -118,7 +117,34 @@
                                               <br/>● เว็บมาสเตอร์
                                               <br/>● ผู้สนับสนุนด้านไอทีหรือเทียบเท่า</p>
 
-</div></div></div>
+</div></div></div></div></div></div></div>
+ </div> 
+
+<div class="col-md-3 col-lg-3">
+               
+    <div class="sidebar-offcanvas" id="sidebar" role="navigation">
+   <div class="list-group">
+       <a class="list-group-item active">SSKRU LINK</a>
+       <a href="http://www.sskru.ac.th/2017/" class="list-group-item">เว็บมหาลัย</a>
+       <a href="http://www.elearning.sskru.ac.th/moodle/" class="list-group-item">E-LEARNING SSKRU</a>
+       <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item " >ข่าวสาร</a>
+       <a href="http://127.0.0.1/CS60/project.php" class="list-group-item">วิจัย</a>
+       <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item">ภาพกิจกรรม</a>
+       <a href="http://lib.sskru.ac.th/libsskru/service" class="list-group-item">เว็บไซต์ห้องสมุด</a>
+       <a href="https://registable.sskru.ac.th/cv/" class="list-group-item">สมัครเรียนออลไลน์</a>
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfg80IYFq8ATWa1WCJjFbSYi0iWc5qUaTWSFtuli718W6mK7w/viewform?embedded=true&amp;formkey=dG81aEhjc3BTcS14T2Q5YWdHUlpIZGc6MQ" class="list-group-item">สายตรงอธิการบดี</a>
+       <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item">ติดต่อสอบถาม</a>
+   </div>
+</div><!--/span-->
+<div class="footer-social text-center">
+                               <ul>
+                                   <li><a href="https://www.facebook.com/sskruthailand/"><i class="fa fa-facebook"></i></a></li>
+                                   <li><a href="https://twitter.com/sskruthailand"><i class="fa fa-twitter"></i></a></li>
+                                   <li><a href="https://www.instagram.com/sskru.thailand/"><i class="fa fa-instagram"></i></a></li>
+                                   <li><a href="https://github.com/HACKl2ER/Website.git"><i class="fa fa-github"></i></a></li>
+                               </ul>
+                           </div>
+                       </div>
 
 </div></div></div></div><div class="csc-frame csc-frame-default">
 <div id="c62" class="frame frame-default frame-type-div frame-layout-0"><hr class="ce-div" /></div>

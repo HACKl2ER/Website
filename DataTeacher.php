@@ -10,7 +10,9 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="tagline-message page-title text-center">
+                                                <h3>
                                                 <font size="10">คณาจารย์</font>
+</h3>
                                                 <ul class="breadcrumb">
                                                     <li>
                                                         <a href="javascript:void(0)"></a>
@@ -75,7 +77,6 @@
                           <p><strong>ตำแหน่งงาน :</strong> <?php echo $row["jobposition"]; ?> </p>
                           <p><strong>เบอร์โทร : </strong> <?php echo $row["phone"]; ?></p>
                           <p><strong>ID Line : </strong> <?php echo $row["IdLine"]; ?></p>
-                          <p><strong>Grade : </strong> <?php echo $row["grade"]; ?></p>
                           <p><strong>Facebook : </strong> <?php echo $row["Facebook"]; ?></p>
                           <p><strong>Address : </strong> <?php echo $row["address"]; ?></p>
                           <p><strong>Email : </strong> <?php echo $row["username"]; ?></p>

@@ -123,12 +123,12 @@
 												<li class="dropdown-submenu">
 													<a href="#.">ตารางสอนอาจารย์</a>
 													<ul class="dropdown-menu">
-													<li><a onclick="showPageTeacher(<?php echo 543+2019-2500-58;?>)" target="_blank" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
+													<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-58;?>)" target="_blank" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
 													</ul>
 												</li>
 												<li><a href="#" onclick="showTeacherPage()">ข้อมูลอาจารย์</a></li>
@@ -154,7 +154,7 @@
 												
 												<li><a href="https://registable.sskru.ac.th/timetbl/stusearch.php">ตารางการเรียน</a></li>
 												<li><a href="https://registable.sskru.ac.th/timetbl/teachsearch.php">ตารางการสอน</a></li>
-												<li><a href="https://registable.sskru.ac.th/timetbl/roomsearch.php">ตารางการใช้ห้อง</a></li>
+												
 											</ul>
 										</li>
 										<li class="dropdown">
@@ -214,7 +214,7 @@
     });
     }
     function showPageDateTeacher(date_level){
-    $.get("http://localhost/website/dateTeacher.php?level="+date_level, function(data, status){
+    $.get("http://localhost/website/DateTeacher.php?level="+date_level, function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
