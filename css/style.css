@@ -3584,7 +3584,7 @@ label {
 .header-two .logo{
     padding: 28px 0;
 }
-.fc {
+@font-face{
     font-family: 'fc_ekaluckbold';
     src: url('fc_ekaluck_bold_ver_1.01-webfont.woff2') format('woff2'),
          url('fc_ekaluck_bold_ver_1.01-webfont.woff') format('woff');
@@ -3594,7 +3594,7 @@ label {
 
 }
 
-.pr {
+@font-face{
     font-family: 'printable4ubold';
     src: url('printable4u_bold_ver_1.00-webfont.woff2') format('woff2'),
          url('printable4u_bold_ver_1.00-webfont.woff') format('woff');
@@ -3602,12 +3602,7 @@ label {
     font-style: normal;
 
 }
-#sidebar {
-    position: fixed;
-    top:10;
-    right:0;
-    
-   }
+
    .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
     color: #fff;

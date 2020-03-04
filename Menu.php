@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Template styles-->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<!-- Responsive styles-->
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- FontAwesome -->
@@ -100,7 +101,7 @@
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับ <i
 													class="fa fa-angle-down"></i></a>
 											<ul class="dropdown-menu" role="menu">
-												<li><a href="#">ประวัติ</a></li>
+												<li><a href="#" onclick="showHistoryPage()">ประวัติ</a></li>
 												<li><a href="#">หลักสูตร</a></li>
 											</ul>
 										</li>
@@ -130,7 +131,7 @@
               										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
 													</ul>
 												</li>
-												<li><a href="service-single.html">ข้อมูลอาจารย์</a></li>
+												<li><a href="#" onclick="showTeacherPage()">ข้อมูลอาจารย์</a></li>
 											</ul>
 										</li>
 										<li class="dropdown">
@@ -176,14 +177,15 @@
 					<!--/ Row end -->
 				
 
-				
+				<!--
 					<div class="nav-search">
 						<span id="search"><i class="fa fa-search"></i></span>
 					</div><!-- Search end -->
-					<div class="search-block" style="display: none;">
+					<!-- <div class="search-block" style="display: none;">
 						<input type="text" class="form-control" placeholder="Type what you want and enter">
 						<span class="search-close">&times;</span>
 					</div><!-- Site search end -->
+
 				</div>
 				<!--/ Container end -->
 			</nav>
@@ -219,14 +221,14 @@
     }
 
     function showHomePage(){
-    $.get("http://localhost/website/", function(data, status){
+    $.get("http://localhost/website/Menu.php", function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
     }
 
     function showHistoryPage(){
-    $.get("http://localhost/website/history2.php", function(data, status){
+    $.get("http://localhost/website/History.php", function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
@@ -240,7 +242,7 @@
     }
 
     function showTeacherPage(){
-    $.get("http://localhost/website/between.php", function(data, status){
+    $.get("http://localhost/website/DataTeacher.php", function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
