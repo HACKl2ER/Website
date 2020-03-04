@@ -1,34 +1,47 @@
-<?php $date_level = $_GET['level']; ?>
+<?php $teacher_level = $_GET['level']; ?>
 <?php
   include('conn.php');
-  $sql = "SELECT * FROM `teacher` WHERE `idTeacher` LIKE 'cs00$date_level%'";
+  $sql = "SELECT * FROM `teacher` WHERE `idTeacher` LIKE 'cs00$teacher_level%'";
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 
 ?>
+<?php echo $_GET['teacher']; ?>
 
-<section id="maincontent" class="maincontent" role="maincontent">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-lg-9">
           <div id="c5" class="csc-frame csc-frame-default">
-<div id="c5" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="">
-				ปฏิทิน <?php echo $row["Title"]; echo $row["Name_Surname"]; ?>
-			</h2></header></div>
 
-<iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23a2a2a2&amp;ctz=Asia%2FBangkok&amp;src=c3NrcnVjczYwQGdtYWlsLmNvbQ&amp;src=dGgudGgjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=1&amp;showPrint=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div id="c5" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="">
+    <br>
+        ตารางสอน <?php echo $row["Title"]; echo $row["Name_Surname"]; ?>
+        </h2></header></div><div id="c1679" class="csc-frame csc-frame-default">
+<div id="c1679" class="frame frame-default frame-type-shortcut frame-layout-0"><div id="c1636" class="csc-frame csc-frame-default"><div id="c1636" class="frame frame-default frame-type-html frame-layout-0">
+</div>
+</div>
+</div>
+<br>
+      <img src="ตารางสอนอาจารย์\<?php echo $row["Name_Surname"]; ?>1.png" width="800" height="601" alt="" class="img-responsive">
+      <br>
+
+			</div>
+
 
 </div>
-<?php
-            }
-          } else {
-            echo "0 results";
-          }
-          $conn->close();
 
-          ?>
+	<?php
+							}
+						} else {
+							echo "0 results";
+						}
+						$conn->close();
+
+						?>
+
+
 <div id="c2200" class="csc-frame csc-frame-default">
 <div id="c2200" class="frame frame-default frame-type-html frame-layout-0"><style>
 .message-item {
@@ -170,6 +183,5 @@ line-height: 22px;
 								</ul>
 							</div>
                         </div>
-
         <!-- /.container -->
   </section>

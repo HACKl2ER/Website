@@ -15,6 +15,7 @@
 	================================================== -->
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
 	<!-- Template styles-->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/stylesheet.css">
@@ -109,10 +110,11 @@
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown">นักศึกษา <i
 													class="fa fa-angle-down"></i></a>
 											<ul class="dropdown-menu" role="menu">
-											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-1; ?>)" target="_self" title="ชั้นปีที่ 3">ชั้นปีที่ 1</a></li>
-											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-2; ?>)" target="_self" title="ชั้นปีที่ 3">ชั้นปีที่ 2</a></li>
+											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-1; ?>)" target="_self" title="ชั้นปีที่ 1">ชั้นปีที่ 1</a></li>
+											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-2; ?>)" target="_self" title="ชั้นปีที่ 2">ชั้นปีที่ 2</a></li>
 											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-3; ?>)" target="_self" title="ชั้นปีที่ 3">ชั้นปีที่ 3</a></li>
-											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-4; ?>)" target="_self" title="ชั้นปีที่ 3">ชั้นปีที่ 4</a></li>
+											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-4; ?>)" target="_self" title="ชั้นปีที่ 4">ชั้นปีที่ 4</a></li>
+											<li><a href="#" onclick="showPageStudent(<?php echo 543+2020-2500-4; ?>)" target="_self" title="ศิษย์เก่า">ศิษย์เก่า</a></li>
 											</ul>
 										</li>
 										<li class="dropdown">
@@ -123,12 +125,12 @@
 												<li class="dropdown-submenu">
 													<a href="#.">ตารางสอนอาจารย์</a>
 													<ul class="dropdown-menu">
-													<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-58;?>)" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
-              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
-              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
-              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
-              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
-              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
+													<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-58;?>)" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
+              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
+              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
+              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
+              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
+              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
 													</ul>
 												</li>
 												<li><a href="#" onclick="showTeacherPage()">ข้อมูลอาจารย์</a></li>
@@ -138,16 +140,16 @@
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม <i
 													class="fa fa-angle-down"></i></a>
 											<ul class="dropdown-menu" role="menu">
-												<li><a href="typography.html">ปฏิทินสาขา</a></li>
+												
 												<li class="dropdown-submenu">
 													<a href="#.">ปฏิทินอาจารย์ประจำสาขา</a>
 													<ul class="dropdown-menu">
-													<li><a onclick="showPageTeacher(<?php echo 543+2019-2500-58;?>)" target="_blank" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
-              										<li><a href="#" onclick="showPageTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
+													<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-58;?>)" title="อ.พิศาล สุขขี">อ.พิศาล สุขขี</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-59;?>)" title="ดร.กนิษฐา อินธิชิต">ดร.กนิษฐา อินธิชิต</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-57;?>)" title="อ.อุรารัตน์ แก้วดวงงาม">อ.อุรารัตน์ แก้วดวงงาม</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-56;?>)" title="อ.กริชบดินทร์ ผิวหอม">อ.กริชบดินทร์ ผิวหอม</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-61;?>)" title="ดร.เจษฎา ชาตรี">ดร.เจษฎา ชาตรี</a></li>
+              										<li><a href="#" onclick="showPageDateTeacher(<?php echo 543+2019-2500-60;?>)" title="ดร.เจษฎา โพนแก้ว">ดร.เจษฎา โพนแก้ว</a></li>
 													</ul>
 												</li>
 												<li><a href="https://www.facebook.com/permalink.php?story_fbid=2221609698061802&amp;id=1432524576970322&amp;_rdc=1&amp;_rdr">กิจกรรมไหว้ครูสาขาวิทยาการคอมพิวเตอร์</a></li>
@@ -161,7 +163,7 @@
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown">สถิติ <i
 													class="fa fa-angle-down"></i></a>
 											<ul class="dropdown-menu" role="menu">
-												<li><a href="news-left-sidebar.html">นักศึกษาคงอยู่</a></li>
+												<li><a href="#" onclick="showStatistics()">นักศึกษาคงอยู่</a></li>
 											
 											</ul>
 										</li>
@@ -208,7 +210,7 @@
     });
     }
     function showPageTeacher(teacher_level){
-    $.get("http://localhost/website/teacher2.php?level="+teacher_level, function(data, status){
+    $.get("http://localhost/website/TeachTable.php?level="+teacher_level, function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
@@ -221,7 +223,7 @@
     }
 
     function showHomePage(){
-    $.get("http://localhost/website/Menu.php", function(data, status){
+    $.get("http://localhost/website/Main.php", function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });
@@ -262,6 +264,12 @@
     }
     function showtable(){
     $.get("http://localhost/website/table.php", function(data, status){
+      //alert("Data: " + data + "\nStatus: " + status);
+      document.getElementById("body_content_info").innerHTML = data;
+    });
+    }
+	function showStatistics(){
+    $.get("http://localhost/website/Statistics.php", function(data, status){
       //alert("Data: " + data + "\nStatus: " + status);
       document.getElementById("body_content_info").innerHTML = data;
     });

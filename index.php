@@ -1,5 +1,5 @@
 <?php
 	include("Menu.php");
-	//include("Sitebar2.php");
+	include("Main.php");
 	include("Footer.php");
 ?>
