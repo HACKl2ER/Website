@@ -219,33 +219,35 @@
             </div>
             <!-- /.maincontent -->
             <div class="clear-fix space-30"></div>
-                <div class="clear-fix space-24"></div>
-                <div class="clear-fix space-24"></div>
-                <div class="clear-fix space-24"></div>
+             
             <div class="col-md-3 col-lg-3">
                
                 <div class="sidebar-offcanvas" id="sidebar" role="navigation">
     <div class="list-group">
-        <a href="#" class="list-group-item active">SSKRU LINK</a>
-        <a href="#" class="list-group-item">เว็บมหาลัย</a>
-        <a href="#" class="list-group-item">ตารางเรียนนักศึกษา
-ตารางสอนอาจารย์</a>
-        <a href="#" class="list-group-item " >ข่าวสาร</a>
-        <a href="#" class="list-group-item">วิจัย</a>
-        <a href="#" class="list-group-item">ภาพกิจกรรม</a>
-        <a href="#" class="list-group-item">เว็บไซต์ห้องสมุด</a>
-        <a href="#" class="list-group-item">สมัครเรียนออลไลน์</a>
-        <a href="#" class="list-group-item">สายตรงอธิการบดี</a>
-        <a href="#" class="list-group-item">ติดต่อสอบถาม</a>
+        <a class="list-group-item active">SSKRU LINK</a>
+        <a href="http://www.sskru.ac.th/2017/" class="list-group-item">เว็บมหาลัย</a>
+        <a href="http://www.elearning.sskru.ac.th/moodle/" class="list-group-item">E-LEARNING SSKRU</a>
+        <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item " >ข่าวสาร</a>
+        <a href="http://127.0.0.1/CS60/project.php" class="list-group-item">วิจัย</a>
+        <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item">ภาพกิจกรรม</a>
+        <a href="http://lib.sskru.ac.th/libsskru/service" class="list-group-item">เว็บไซต์ห้องสมุด</a>
+        <a href="https://registable.sskru.ac.th/cv/" class="list-group-item">สมัครเรียนออลไลน์</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfg80IYFq8ATWa1WCJjFbSYi0iWc5qUaTWSFtuli718W6mK7w/viewform?embedded=true&amp;formkey=dG81aEhjc3BTcS14T2Q5YWdHUlpIZGc6MQ" class="list-group-item">สายตรงอธิการบดี</a>
+        <a href="https://www.facebook.com/comsci.sskru/" class="list-group-item">ติดต่อสอบถาม</a>
     </div>
 </div><!--/span-->
-                <header>
-                    <h3>SSKRU LINK</h3>
-                </header>
+<div class="footer-social text-center">
+								<ul>
+                                <span class="social-icon"><a href="https://facebook.com/themefisher"><i class="fa fa-facebook"></i></a></span>
+                                <span class="social-icon"><a href="https://twitter.com/themefisher"><i class="fa fa-twitter"></i></a></span>
+                                <span class="social-icon"><a href="https://instagram.com/themefisher"><i class="fa fa-instagram"></i></a></span>
+                                <span class="social-icon"><a href="https://github.com/themefisher"><i class="fa fa-github"></i></a></span>
+								</ul>
+							</div>
+                        </div>
+                
                 <div class="clear-fix"></div>
-            
 
-            
                 <div class="clear-fix space-30"></div>
 
                 <header>
